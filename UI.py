@@ -8,7 +8,7 @@ root.iconbitmap('Icone.bmp')
 canvas = tk.Canvas(root, bg='black', height=720, width=1350)
 canvas.pack()
 
-name = canvas.create_text(675, 0, text='Astrogildo', anchor="n", font='Arial 30', fill='green')
+title = canvas.create_text(675, 0, text='Astrogildo', anchor="n", font='Arial 30', fill='green')
 
 
 def respond(reply):
